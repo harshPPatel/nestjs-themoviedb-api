@@ -1,11 +1,12 @@
 {
-  "name": "@nestjsplus/nestjs-package-starter",
+  "name": "nestjs-themoviedb-api",
   "version": "1.0.0",
-  "description": "NestJS npm package starter",
-  "author": "John Biundo <johnfbiundo@gmail.com>",
+  "description": "NestJS Wrapper for node-themoviedb api",
+  "author": "Harsh Patel <harshppatel2880@gmail.com>",
   "license": "MIT",
   "readmeFilename": "README.md",
-  "main": "dist/test.js",
+  "main": "dist/nestjs-themoviedb-api/src/index.js",
+  "types": "dist/nestjs-themoviedb-api/src/index.d.js",
   "files": [
     "dist/**/*",
     "*.md"
@@ -22,7 +23,8 @@
     "test:e2e": "jest --config ./apps/nestjsplus-nestjs-package-starter/test/jest-e2e.json"
   },
   "keywords": [
-    "nestjs"
+    "nestjs",
+    "themoviedb"
   ],
   "publishConfig": {
     "access": "public"
