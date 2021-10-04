@@ -12,7 +12,7 @@
     "nestjs-themoviedb-api": {
       "type": "application",
       "root": "apps/nestjs-themoviedb-api",
-      "entryFile": "main",
+      "entryFile": "index",
       "sourceRoot": "apps/nestjs-themoviedb-api/src",
       "compilerOptions": {
         "tsConfigPath": "apps/nestjs-themoviedb-api/tsconfig.app.json"

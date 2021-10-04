@@ -1,5 +1,5 @@
 {
-  "name": "nestjs-themoviedb-api",
+  "name": "@harshppatel/nestjs-themoviedb-api",
   "version": "1.0.0",
   "description": "NestJS Wrapper for node-themoviedb api",
   "author": "Harsh Patel <harshppatel2880@gmail.com>",
@@ -31,14 +31,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/nestjsplus/nestjs-package-starter"
+    "url": "https://github.com/harshPPatel/nestjs-themoviedb-api"
   },
-  "bugs": "https://github.com/nestjsplus/nestjs-package-starter",
+  "bugs": "https://github.com/harshPPatel/nestjs-themoviedb-api/issues",
+  "homepage": "https://github.com/harshPPatel/nestjs-themoviedb-api",
   "peerDependencies": {
     "@nestjs/common": "^6.0.0"
   },
   "dependencies": {
-    "dotenv": "^10.0.0",
     "node-themoviedb": "^0.2.8",
     "rxjs": "^6.6.7"
   },
