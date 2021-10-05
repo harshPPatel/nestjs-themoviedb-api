@@ -19,4 +19,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Created a NestJS wrapper for [node-themoviedb](https://www.npmjs.com/package/node-themoviedb) library.
 
+[1.0.1]: https://github.com/harshPPatel/nestjs-themoviedb-api/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/harshPPatel/nestjs-themoviedb-api/releases/tag/v1.0.0
