@@ -8,11 +8,11 @@
     "target": "es6",
     "sourceMap": false,
     "outDir": "./dist",
-    "rootDir": "./apps",
+    "rootDir": "./",
     "baseUrl": "./",
     "noLib": false,
     "paths": {}
   },
-  "include": ["apps/**/*.ts"],
-  "exclude": ["node_modules"]
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules", "dist", "test", "**/*spec.ts"]
 }
