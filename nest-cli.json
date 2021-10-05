@@ -1,21 +1,21 @@
 {
   "language": "ts",
   "collection": "@nestjs/schematics",
-  "sourceRoot": "apps/nestjs-themoviedb-api/src",
+  "sourceRoot": "./src",
   "monorepo": true,
-  "root": "apps/nestjs-themoviedb-api",
+  "root": ".",
   "compilerOptions": {
     "webpack": true,
-    "tsConfigPath": "apps/nestjs-themoviedb-api/tsconfig.app.json"
+    "tsConfigPath": "./tsconfig.json"
   },
   "projects": {
     "nestjs-themoviedb-api": {
       "type": "application",
-      "root": "apps/nestjs-themoviedb-api",
+      "root": ".",
       "entryFile": "index",
-      "sourceRoot": "apps/nestjs-themoviedb-api/src",
+      "sourceRoot": "./src",
       "compilerOptions": {
-        "tsConfigPath": "apps/nestjs-themoviedb-api/tsconfig.app.json"
+        "tsConfigPath": "./tsconfig.json"
       }
     }
   }

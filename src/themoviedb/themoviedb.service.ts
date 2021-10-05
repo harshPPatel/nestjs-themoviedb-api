@@ -1,5 +1,5 @@
 import { Inject, Injectable } from '@nestjs/common';
-import MovieDB = require('node-themoviedb');
+import * as MovieDB from 'node-themoviedb';
 import { TheMovieDbOptions } from '..';
 import { THE_MOVIE_DB_CONFIG } from './tokens/tokens';
 
@@ -10,7 +10,6 @@ export class TheMovieDbService {
     @Inject(THE_MOVIE_DB_CONFIG)
     private readonly config: TheMovieDbOptions,
   ) {
-    console.log(this.config);
     this.themoviedb = new MovieDB(this.config.API_KEY, this.config);
   }
   getMovieEndpoint(): MovieDB.Endpoints.Movie {

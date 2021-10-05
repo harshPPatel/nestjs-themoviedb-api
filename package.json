@@ -1,6 +1,6 @@
 {
   "name": "@harshppatel/nestjs-themoviedb-api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "NestJS Wrapper for node-themoviedb api",
   "author": "Harsh Patel <harshppatel2880@gmail.com>",
   "license": "MIT",
@@ -15,12 +15,11 @@
     "start:dev": "tsc -w",
     "build": "tsc",
     "prepare": "npm run build",
-    "format": "prettier --write \"apps/**/*.ts\" \"libs/**/*.ts\"",
+    "format": "prettier --write \"src/**/*.ts\" \"libs/**/*.ts\"",
     "lint": "tslint -p tsconfig.json -c tslint.json",
     "test": "jest",
     "test:watch": "jest --watch",
-    "test:cov": "jest --coverage",
-    "test:e2e": "jest --config ./apps/nestjsplus-nestjs-package-starter/test/jest-e2e.json"
+    "test:cov": "jest --coverage"
   },
   "keywords": [
     "nestjs",
@@ -76,7 +75,7 @@
     "coverageDirectory": "./coverage",
     "testEnvironment": "node",
     "roots": [
-      "<rootDir>/apps/"
+      "<rootDir>/src/"
     ]
   }
 }
