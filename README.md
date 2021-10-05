@@ -99,7 +99,7 @@ Contributions welcome! See [Contributing](CONTRIBUTING.md).
 
 ## Author
 
-**John Biundo (Y Prospect on [Discord](https://discord.gg/G7Qnnhy))**
+**Harsh Patel ([YouTube Channel](https://youtube.harshpatel.info))**
 
 ## License
 

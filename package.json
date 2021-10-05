@@ -1,6 +1,6 @@
 {
   "name": "@harshppatel/nestjs-themoviedb-api",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "NestJS Wrapper for node-themoviedb api",
   "author": "Harsh Patel <harshppatel2880@gmail.com>",
   "license": "MIT",
